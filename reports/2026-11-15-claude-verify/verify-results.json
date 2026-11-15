@@ -1,0 +1,81 @@
+{
+  "solarEvents": [
+    {
+      "t": "2026-03-20T14:46Z",
+      "name": "March equinox",
+      "decDeg": 0.0016,
+      "refDeg": 0,
+      "errDeg": 0.0016
+    },
+    {
+      "t": "2026-06-21T08:24Z",
+      "name": "June solstice",
+      "decDeg": 23.4355,
+      "refDeg": 23.436,
+      "errDeg": -0.0005
+    },
+    {
+      "t": "2026-12-21T20:50Z",
+      "name": "December solstice",
+      "decDeg": -23.4355,
+      "refDeg": -23.436,
+      "errDeg": 0.0005
+    }
+  ],
+  "batumiNoon": {
+    "utc": "2026-11-15T08:58:00.000Z",
+    "projectElevDeg": 29.864,
+    "geometric90minusLatPlusDec": 29.864,
+    "darkAt20LocalTime": true
+  },
+  "eclipse": [
+    {
+      "t": "2026-08-12T17:46Z",
+      "geocentricSunMoonSepDeg": 0.9
+    },
+    {
+      "t": "2026-08-19T17:46Z",
+      "geocentricSunMoonSepDeg": 85.888
+    }
+  ],
+  "skyRotationPreciseInNode": false,
+  "stars": {
+    "polarisUnitVector": [
+      0.010128556867563974,
+      0.007900208712736365,
+      0.9999174961155924
+    ],
+    "sunTempFromBV065": 5778,
+    "sunTrueTeffK": 5772,
+    "siriusBrightness": 39.084089579240214,
+    "mag6Brightness": 1.2589254117941673
+  },
+  "issPassBeijing2008": {
+    "rise": "2008-09-20T12:14:33.008Z",
+    "set": "2008-09-20T12:19:52.490Z",
+    "maxElevDeg": 30.217,
+    "bruteForceMaxElevDeg": 30.217,
+    "peakTimeDiffSec": -0.376,
+    "visible": true
+  },
+  "geodesic": [
+    {
+      "route": "Beijing→Batumi",
+      "haversineKm": 6091.39,
+      "wgs84Km": 6106.83,
+      "errPct": -0.253
+    },
+    {
+      "route": "Kuala Lumpur→Beijing",
+      "haversineKm": 4348.66,
+      "wgs84Km": 4334.15,
+      "errPct": 0.335
+    },
+    {
+      "route": "Batumi→Moscow",
+      "haversineKm": 1598.95,
+      "wgs84Km": 1599.22,
+      "errPct": -0.017
+    }
+  ]
+}
