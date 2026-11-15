@@ -1,0 +1,32 @@
+{
+  "fixture": "Archived ISS TLE, 2008-09-20; not live data",
+  "clock": {
+    "elapsedRealSeconds": 1,
+    "rate": 60,
+    "satelliteTime": "2008-09-20T11:31:00.000Z",
+    "flightTimeWithoutHistory": "2008-09-20T12:30:01.000Z",
+    "simulatedAdvanceSeconds": 60
+  },
+  "orbitApproximation": [
+    {
+      "seconds": 0,
+      "differenceFromSgp4Metres": 0
+    },
+    {
+      "seconds": 1,
+      "differenceFromSgp4Metres": 0.051022667563901586
+    },
+    {
+      "seconds": 10,
+      "differenceFromSgp4Metres": 0.6895642130628763
+    },
+    {
+      "seconds": 30,
+      "differenceFromSgp4Metres": 6.706454460366379
+    },
+    {
+      "seconds": 60,
+      "differenceFromSgp4Metres": 29.66630398934695
+    }
+  ]
+}
